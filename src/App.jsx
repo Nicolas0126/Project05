@@ -82,6 +82,7 @@ const pokeBgColor = {
   psychic: "bg-orange-700",
   dragon: "bg-red-600",
   fairy: "bg-fuchsia-700",
+  flying: "bg-sky-900"
 
 }
 
@@ -89,7 +90,7 @@ function App() {
 
 
   return (
-    <section className='text-red font-["Inter"]'>
+    <section className='font-["Inter"]'>
       <Routes>
         
         <Route path='/' element= {<Home />}/>
